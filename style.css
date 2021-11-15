@@ -1,0 +1,80 @@
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://picsum.photos/id/126/600/400") center ;
+    background-size: cover;
+}
+.modal-opended{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    background-image: url("https://picsum.photos/id/681/600/400");
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+.hidden{
+    display: none;
+}
+h1{
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    color: rgb(236, 118, 118);
+  
+}
+button{
+    width: 5rem;
+    height: 2rem;
+   align-self: center;
+   background-color: red;
+   color: seashell;
+   box-shadow: 2px 1px yellowgreen;
+   border-radius: 10%;
+   font-size: 1rem;
+   cursor: pointer;
+}
+p{
+ color: red;
+ font-size: 1.3rem;
+
+}
+.modal-clickopen{
+    display: none;
+    opacity: 0;
+    flex-direction: column;
+    background-image: url("https://picsum.photos/id/685/600/400");
+    background-size: cover;
+    justify-content: space-around;
+    padding: 2rem; 
+    width: 65%;
+    align-items: center;
+
+}
+.modal-clickopen button{
+    align-self: flex-end;
+    height: 2rem;
+    background:rgb(255, 0, 0);
+}
+.openedDiv{
+    display: flex;
+    opacity: 1;
+
+}
+.back{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,
+    url("https://picsum.photos/id/126/600/400") center  no-repeat;
+    background-size: cover;
+
+}
