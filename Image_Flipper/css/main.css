@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(0, 225, 255, 0.3);
+}
+
 .container {
   min-height: 100vh;
   display: -webkit-box;
@@ -18,12 +22,16 @@
           align-items: center;
 }
 
+h1 {
+  text-align: center;
+  color: #002fff;
+}
+
 .image-page {
   width: 50vw;
   height: 50vh;
   background-image: url("https://picsum.photos/id/684/600/400");
   background-size: cover;
-  border: 5px solid #00ff4c;
 }
 
 .image-buttons {
@@ -31,9 +39,9 @@
   display: -ms-flexbox;
   display: flex;
   height: 50vh;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

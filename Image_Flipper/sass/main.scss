@@ -3,25 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(0, 225, 255,0.3);
+}
 .container{
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+h1{
+    text-align: center;
+    color: rgb(0, 47, 255);
+}
 .image-page{
     width: 50vw;
     height: 50vh;
     background-image: url("https://picsum.photos/id/684/600/400") ;
     background-size: cover;
-    border: 5px solid rgb(0, 255, 76);
     
     
 }
 .image-buttons{
     display: flex;
     height: 50vh;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin: 0 -10vw;
     & button{
