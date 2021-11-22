@@ -1,5 +1,5 @@
 
-const newYear = "01 Jun 2022";
+const newYear = "01 Jan 2022";
 function countdown(){
     const newYearsDate = new Date(newYear);
     const currentDate = new Date();
