@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.container{
+    background-image: url("image.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.textHms ul{
+    display: flex;
+    list-style-type: none;
+    width: 35rem;
+    margin: 2rem;
+    font-size: 4rem;
+    color: rgb(21, 10, 117);
+    background-color: rgba(0, 255, 255,0.3);
+    padding: 2rem 5rem;
+    padding-right: 1rem;
+    
+
+}
+.textHms li{
+ 
+    width: 10rem;
+ 
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons button{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: aliceblue;
+}
+.saveresult{
+    width: 35rem;
+    height: 20rem;
+    background-color: rgba(241, 13, 89, 0.3);
+    margin: 2rem;
+    overflow: auto;
+}
+@media screen and (max-width:420px){
+ .buttons {
+     flex-direction: column;
+     width: 26rem;
+ }
+ .buttons button{
+     padding: 11px;
+     margin: 2px;
+     text-align: center;
+ }
+
+.textHms li{
+    width: 6rem;
+    margin-top: 2.9rem;
+    margin-left:-1rem;
+
+ }
+ .textHms ul{
+    width: 24rem;  
+    font-size: 3rem;   
+ }
+ .saveresult{
+    width: 24rem;
+
+}
+}
+
+
+@media screen and (max-width:350px){
+    .buttons {
+        flex-direction: column;
+        width: 22rem;
+    }
+    .buttons button{
+        padding: 11px;
+        margin: 2px;
+        text-align: center;
+    }
+   
+   .textHms li{
+       width: 7rem;
+       margin-top: 9rem;
+       margin-left:-2rem;
+   
+    }
+    .textHms ul{
+       width: 20rem;  
+       font-size: 2.5rem;   
+    }
+    .saveresult{
+       width: 20rem;
+   
+   }
+}
+

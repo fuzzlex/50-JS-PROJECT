@@ -24,4 +24,6 @@ buttons.forEach((e)=>{
             e.parentElement.parentElement.style.background = `url('https://picsum.photos/id/${arr[x-1]}/600/400') no-repeat center`;
         }
     })
-})
+});
+console.log("heelo");
+console.log("lmfşsdmf");
